@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>游隼 · 隐私政策</title>
+<style>
+:root {
+    --ink: #1a1d22;
+    --inkSoft: #6c727a;
+    --accent: #2f8fd9;
+    --bg: #fafafa;
+    --paper: #ffffff;
+    --line: #e6e6e6;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ink: #ececec;
+        --inkSoft: #9aa0a8;
+        --accent: #58a8e8;
+        --bg: #0e141c;
+        --paper: #15202b;
+        --line: #2b3340;
+    }
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+    font-size: 15px;
+}
+.container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+h1 { font-size: 28px; margin: 0 0 6px; font-weight: 700; }
+.subtitle { color: var(--inkSoft); font-size: 13px; margin: 0; }
+h2 { font-size: 18px; font-weight: 600; margin: 32px 0 12px; }
+h3 { font-size: 15px; font-weight: 600; margin: 20px 0 8px; }
+ul { padding-left: 22px; } li { margin-bottom: 6px; }
+.callout {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    padding: 14px 16px; border-radius: 6px; margin: 18px 0; font-size: 14px;
+}
+table {
+    width: 100%; border-collapse: collapse; margin: 14px 0;
+    font-size: 13px;
+}
+th, td {
+    border: 1px solid var(--line); padding: 8px 10px; text-align: left;
+    vertical-align: top;
+}
+th { background: var(--paper); font-weight: 600; }
+footer {
+    margin-top: 50px; padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--inkSoft); font-size: 12px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>游隼 · 隐私政策</h1>
+<p class="subtitle">MotoCyclePerider · Privacy Policy<br>
+最近更新：2026 年 5 月 22 日 · 生效日期：2026 年 5 月 22 日</p>
+</header>
+
+<div class="callout">
+我们深知隐私对您的重要性。本政策详细说明游隼 App 收集、使用、存储和分享您信息的方式，
+以及您对自己数据的控制权。请在使用本 App 前仔细阅读。
+</div>
+
+<h2>1. 我们收集哪些信息</h2>
+<table>
+<thead><tr><th>数据类型</th><th>具体内容</th><th>是否离开设备</th></tr></thead>
+<tbody>
+<tr>
+<td>精确位置（GPS）</td>
+<td>实时经纬度、海拔、行进方向、速度</td>
+<td>仅在组队骑行时通过 Apple MultipeerConnectivity 加密发送给您主动加入的队友设备；不上传我们任何服务器</td>
+</tr>
+<tr>
+<td>车辆资料</td>
+<td>品牌型号、年份、胎压目标、油耗、颜色、外形</td>
+<td>仅存储在您 iCloud 私有数据库（仅您本人可见）</td>
+</tr>
+<tr>
+<td>加油记录</td>
+<td>日期、油量、金额、里程</td>
+<td>同上，存于您 iCloud 私有数据库</td>
+</tr>
+<tr>
+<td>路书 / 骑行日志</td>
+<td>路线点位、骑行时间、里程</td>
+<td>本地存储；您主动分享时才会通过 App Store 链接 / GPX 文件传递给指定接收方</td>
+</tr>
+<tr>
+<td>设备运动数据</td>
+<td>加速度、陀螺仪（用于 0-100 测试 + 倾角检测）</td>
+<td>仅本地实时计算，不存储</td>
+</tr>
+<tr>
+<td>购买记录</td>
+<td>Apple ID 关联的订阅 / 一次性购买凭证</td>
+<td>由 Apple 管理，我们仅通过 StoreKit 接收"是否高级会员"状态</td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout">
+<strong>我们不收集：</strong>您的姓名、电话号码、电子邮箱（您主动反馈时除外）、
+通讯录、相机相册、健康数据、银行卡信息、广告标识符（IDFA），也不进行任何形式的用户行为追踪。
+</div>
+
+<h2>2. 我们如何使用这些信息</h2>
+<ul>
+<li><strong>位置</strong> — 路线规划、实时导航、组队骑行的队友定位、行程记录</li>
+<li><strong>车辆 / 加油资料</strong> — 在车机模式与首页展示给您；统计您的油耗与骑行数据</li>
+<li><strong>运动数据</strong> — 加速度测试的图表绘制、倾角 HUD 显示；不离开本机</li>
+<li><strong>购买记录</strong> — 判断您当前的会员级别，解锁对应权益</li>
+</ul>
+
+<h2>3. 数据存储位置</h2>
+<ul>
+<li><strong>本地存储</strong>：通过 Apple SwiftData / UserDefaults 存于您 iPhone / iPad / Mac 设备本地</li>
+<li><strong>iCloud 同步</strong>：通过您个人 iCloud 账户的 <code>iCloud.xiaopo.MotoCyclePerider</code> 私有容器同步到您自己的多个设备；
+我们及任何第三方均无法访问该容器内的数据</li>
+<li><strong>我们的服务器</strong>：本 App 当前<strong>没有</strong>使用任何由我们运营的服务器，因此不存在"上传到我们服务器"的数据</li>
+</ul>
+
+<h2>4. 数据共享与第三方</h2>
+<p>我们不会将您的个人数据出售、出租或交易给任何第三方。仅在以下情况下数据离开您的设备：</p>
+<ul>
+<li>您主动通过分享链接、GPX 文件、iMessage 等方式分享路书</li>
+<li>您加入组队骑行后，您的实时位置会发送给同房间的队友（且仅在房间存续期间）</li>
+<li>WeatherKit 查询天气时，您的当前位置会发送给 Apple 服务器（受 Apple 隐私政策保护）</li>
+<li>MapKit 地理编码 / 路径计算时，搜索关键字会发送给 Apple 服务器（同上）</li>
+<li>法律法规要求我们披露时</li>
+</ul>
+
+<h2>5. 您的权利与控制</h2>
+<ul>
+<li><strong>查看数据</strong>：iOS 系统 → 设置 → Apple ID → iCloud → 管理账户存储</li>
+<li><strong>删除数据</strong>：在 App 内删除对应车辆 / 加油记录即可；卸载 App 后可在 iCloud 设置中删除整个 App 数据</li>
+<li><strong>停止位置共享</strong>：iOS 系统设置 → 隐私与安全性 → 定位服务 → 游隼</li>
+<li><strong>取消订阅</strong>：iOS 系统设置 → Apple ID → 订阅 → 选择本 App → 取消订阅</li>
+<li><strong>申请数据导出</strong>：通过下方邮箱联系我们，我们将在 30 天内提供 JSON 格式的全部数据导出</li>
+</ul>
+
+<h2>6. 儿童隐私</h2>
+<p>
+本 App 不面向 13 周岁以下儿童设计，也不会有意收集儿童个人信息。
+如果您是未成年人，请在监护人指导下使用并获得监护人同意。
+</p>
+
+<h2>7. 数据安全</h2>
+<p>我们采取以下措施保护您的数据安全：</p>
+<ul>
+<li>所有 iCloud 数据通过 Apple 端到端加密（CloudKit Private Database）</li>
+<li>组队骑行的实时位置通过 Apple MultipeerConnectivity 在设备间加密传输</li>
+<li>本 App 不存储任何敏感支付信息（由 Apple 统一管理）</li>
+<li>App Sandbox 限制了 App 可以访问的文件范围</li>
+</ul>
+
+<h2>8. 政策变更</h2>
+<p>
+本隐私政策可能不时更新。重大变更会在 App 内通过弹窗或更新公告通知您。
+您可在本网页底部查看最新更新日期。
+</p>
+
+<h2>9. 联系我们</h2>
+<p>
+任何关于隐私的问题、请求或投诉，请通过以下方式联系：<br>
+邮箱：<a href="mailto:t81941541@gmail.com">t81941541@gmail.com</a><br>
+我们会在 7 个工作日内回复。
+</p>
+
+<footer>
+© 2026 游隼 · MotoCyclePerider. All rights reserved.
+</footer>
+</div>
+</body>
+</html>

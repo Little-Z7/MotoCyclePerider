@@ -1,0 +1,21 @@
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Local secrets — copy Secrets.example.xcconfig to Secrets.xcconfig and fill in real values.
+MotoCyclePerider/Config/Secrets.xcconfig
+
+# Local design reference / AI-generated source images — not used by the build.
+bikes/
+logo/
