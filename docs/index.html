@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>游隼 Perider · 摩托骑手的智能伴侣</title>
-<meta name="description" content="游隼 Perider — 专为摩托骑手设计的智能伴侣 App。横屏车机 HUD、实时路书导航、组队 GPS 共享、加速测试、油耗记录。">
+<meta name="description" content="游隼 Perider — 专为摩托骑手设计的智能伴侣 App。横屏车机 HUD、实时路书导航、骑行轨迹记录、加速测试、油耗记录。">
 <style>
 :root {
     --ink: #0e141c;
@@ -194,12 +194,12 @@ footer a:hover { text-decoration: underline; }
             <div class="feature">
                 <div class="icon">🗺</div>
                 <h3>智能路书</h3>
-                <p>多途径点路线规划、POI 加油站/餐饮、GPX 一键分享给队友。</p>
+                <p>多途径点路线规划、POI 加油站/餐饮、GPX 路书一键分享。</p>
             </div>
             <div class="feature">
-                <div class="icon">🤝</div>
-                <h3>组队骑行</h3>
-                <p>近距离蓝牙直连 + 远距离 iCloud 加密同步，6 位邀请码组队。</p>
+                <div class="icon">📈</div>
+                <h3>骑行记录</h3>
+                <p>实时记录速度、轨迹、里程与海拔，骑行结束自动生成可分享数据卡片。</p>
             </div>
             <div class="feature">
                 <div class="icon">🛞</div>
@@ -253,24 +253,16 @@ footer a:hover { text-decoration: underline; }
         <details>
             <summary>App 收集我的位置数据吗？</summary>
             <p>
-                只在你主动开启路线规划、导航、组队骑行时使用精确位置。位置数据保存在你的
+                只在你主动开启路线规划、导航、骑行记录时使用精确位置。位置数据保存在你的
                 iCloud 私有数据库（开发者无法访问），不上传任何第三方服务器，不用于广告追踪。
                 详见<a href="legal/privacy.html">隐私政策</a>。
             </p>
         </details>
 
         <details>
-            <summary>组队骑行如何工作？</summary>
-            <p>
-                近距离（&lt;100m）通过 Apple MultipeerConnectivity 蓝牙/WiFi 直连，免流量；
-                远距离通过 iCloud 加密同步。生成 6 位邀请码，队友输入即可加入，1 个房间最多 10 人。
-            </p>
-        </details>
-
-        <details>
             <summary>没有网络能用吗？</summary>
             <p>
-                离线优先设计。除路线规划、天气、组队远距离同步等需要联网的功能外，
+                离线优先设计。除路线规划、天气、地图等需要联网的功能外，
                 胎压管理、油耗记录、车机模式 HUD、车库管理等核心功能均可离线使用。
             </p>
         </details>
@@ -278,7 +270,7 @@ footer a:hover { text-decoration: underline; }
         <details>
             <summary>支持哪些摩托车型？</summary>
             <p>
-                内置 23 款主流型号车型库（本田 / 雅马哈 / 川崎 / 杜卡迪 / 哈雷 / BMW / KTM / 凯旋等），
+                内置 850+ 款车型库，覆盖本田 / 雅马哈 / 川崎 / 杜卡迪 / 哈雷 / BMW / KTM / 凯旋等数十个品牌，
                 也可手动新建任意车型并自定义外形、颜色、胎压目标。
             </p>
         </details>
